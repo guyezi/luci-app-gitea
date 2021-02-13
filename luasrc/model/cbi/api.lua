@@ -271,9 +271,8 @@ function to_extract(file, subfix)
                                   "mktemp -d -t gitea_extract.XXXXXX"))
 
     local output = {}
-    exec("/bin/xz", {"-C", tmp_dir, "-d", file},
-        function(chunk) output[#output + 1] = chunk end)
-    exec("/bin/tar", {"-C", tmp_dir, "-zxvf", file},
+    
+    exec("/bin/xz", {"-C", tmp_dir, "-d", file}, "&&" "/bin/tar", {"-C", tmp_dir, "-zxvf", file},
          function(chunk) output[#output + 1] = chunk end)
 
     local files = util.split(table.concat(output))
