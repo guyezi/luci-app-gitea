@@ -9,7 +9,7 @@ function index()
 
     entry({"admin", "nas"}, firstchild(), "NAS", 44).dependent = false
     entry({"admin", "nas", "gitea"}, cbi("gitea/settings"),
-          _("File Browser"), 2).dependent = true
+          _("Gitea"), 2).dependent = true
 
     entry({"admin", "nas", "gitea", "check"}, call("action_check")).leaf =
         true
