@@ -1,0 +1,11 @@
+#!/bin/sh
+
+uci -q batch <<-EOF >/dev/null
+	delete ucitrack.@gitea[-1]
+	add ucitrack gitea
+	set ucitrack.@gitea[-1].init=gitea
+	commit ucitrack
+EOF
+
+rm -f /tmp/luci-indexcache
+exit 0

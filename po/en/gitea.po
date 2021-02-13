@@ -1,0 +1,110 @@
+msgid "Gitea"
+msgstr "Gitea"
+
+msgid "gitea"
+msgstr "gitea"
+
+msgid "Gitea (Git with a cup of tea) is a painless self-hosted Git Service written in Go."
+msgstr "Gitea (Git with a cup of tea) is a painless self-hosted Git Service written in Go."
+
+msgid "RUNNING"
+msgstr ""
+
+msgid "NOT RUNNING"
+msgstr ""
+
+msgid "Enter interface"
+msgstr ""
+
+msgid "Global Settings"
+msgstr ""
+
+msgid "Enable"
+msgstr ""
+
+msgid "Listen port"
+msgstr ""
+
+msgid "Root path"
+msgstr ""
+
+msgid "Point to a path to access your files in the web interface, default is /"
+msgstr ""
+
+msgid "Project directory"
+msgstr ""
+
+msgid "The file size is large, requiring at least 300M space. It is recommended to insert a usb flash drive or hard disk, or use it in the tmp directory<br />For example, /mnt/sda1<br />For example, /tmp"
+msgstr ""
+
+msgid "Manually download"
+msgstr ""
+
+msgid "Make sure you have enough space. <br /><font style='color:red'>Be sure to fill out the project storage directory the first time you run it, and then save the application. Then manually download, otherwise can not use!</font>"
+msgstr ""
+
+msgid "Logs"
+msgstr ""
+
+msgid "Clear logs"
+msgstr ""
+
+msgid "It is the latest version"
+msgstr ""
+
+msgid "Download successful"
+msgstr ""
+
+msgid "Click to download"
+msgstr ""
+
+msgid "Updating..."
+msgstr ""
+
+msgid "Unexpected error"
+msgstr ""
+
+msgid "Download, are you sure to close?"
+msgstr ""
+
+msgid "Downloading..."
+msgstr ""
+
+msgid "Unpacking..."
+msgstr ""
+
+msgid "Moving..."
+msgstr ""
+
+msgid "The latest version:"
+msgstr ""
+
+msgid "Can't determine ARCH, or ARCH not supported."
+msgstr ""
+
+msgid "Get remote version info failed."
+msgstr ""
+
+msgid "New version found, but failed to get new version download url."
+msgstr ""
+
+msgid "Download url is required."
+msgstr ""
+
+msgid "File download failed or timed out: %s"
+msgstr ""
+
+msgid "File path required."
+msgstr ""
+
+msgid "Can't find client in file: %s"
+msgstr ""
+
+msgid "Client file is required."
+msgstr ""
+
+msgid "The client file is not suitable for current device."
+msgstr ""
+
+msgid "Can't move new file to path: %s"
+msgstr ""

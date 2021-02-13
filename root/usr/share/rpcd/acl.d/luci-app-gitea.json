@@ -1,0 +1,11 @@
+{
+	"luci-app-gitea": {
+		"description": "Grant UCI access for luci-app-gitea",
+		"read": {
+			"uci": [ "gitea" ]
+		},
+		"write": {
+			"uci": [ "gitea" ]
+		}
+	}
+}
